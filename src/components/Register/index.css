@@ -1,0 +1,261 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    height: 115vh;
+    background: url('https://res.cloudinary.com/dyjmh036b/image/upload/v1721106697/dark_4_bg_ca2jnq.jpg') no-repeat center center;
+    background-size: cover; 
+    padding: 20px;
+}
+@media screen and (max-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    
+       
+    }
+
+  
+    .png-des{
+        margin-left: 160px;
+    }
+
+
+    .image-container{
+      text-align: center;
+        
+    }
+
+   
+}
+
+.image-container{
+    margin-right: 70px;
+    
+   
+}
+
+.navigate{
+    color: white;
+    cursor: pointer;
+}
+
+.navigate:hover{
+    color:skyblue
+}
+
+.logo{
+    width: 40px;
+    color: white;
+}
+
+.heading{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heaading{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paraa{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    width: 100%;
+    color: darkgrey;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.profile-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.profile-container img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+   
+}
+
+.para-con{
+    margin-left: 180px;
+}
+
+.pf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.png-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.profile-container img:nth-child(1) {
+    left: 0;
+    z-index: 5;
+}
+
+.profile-container img:nth-child(2) {
+    left: 30px;
+    z-index: 4;
+}
+
+.profile-container img:nth-child(3) {
+    left: 60px;
+    z-index: 3;
+}
+
+.profile-container img:nth-child(4) {
+    left: 90px;
+    z-index: 2;
+}
+
+.profile-container img:nth-child(5) {
+    left: 120px;
+    z-index: 1;
+}
+
+.header-container {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.header-container h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+.header-container p {
+    margin: 5px 0;
+}
+
+
+.form-container {
+  
+    margin-top: 80px;
+   
+    backdrop-filter: blur(20px); 
+    background: rgba(20, 20, 20, 0.2); 
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px; 
+    width: 320px; 
+    max-width: 90%;
+    margin: 0 auto; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    
+}
+
+.form-container:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: blur;
+}
+
+form h2 {
+    margin-bottom: 15px; 
+    text-align: center;
+    color: #fff;
+}
+
+form div {
+    margin-bottom: 8px; 
+}
+
+form label {
+    display: block;
+    margin-bottom: 4px; 
+    font-size: 0.9em;
+    color: #fff;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 95%;
+    padding: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 0.9em; 
+    color: #fff;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+form .error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 3px; 
+}
+
+form input[type="checkbox"] {
+    margin-right: 8px; 
+}
+
+form label[for="user_agreement"] {
+    display: inline-block;
+    font-size: 0.9em; 
+    color: #fff;
+}
