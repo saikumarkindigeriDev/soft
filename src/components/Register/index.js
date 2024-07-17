@@ -134,7 +134,7 @@ const handleSignIn=()=>{
                    
             
             <div className='logos-container'>
-                <img src="" alt="logo" className='logo' />
+                <img src="https://res.cloudinary.com/dyjmh036b/image/upload/v1721116720/icons8-ethereum-64_jvxrx7.png" alt="logo" className='logo' />
                
          <h1 className='heading'>Sign up</h1>
          <p className='para'>Already have an account? <span onClick={handleSignIn} className='navigate'>Sign in</span></p>

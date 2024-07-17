@@ -43,7 +43,7 @@
   
   
   .header{
-    background-color: #00204c;
+    background-color:indigo;
     width: 100%;
   }
   
@@ -75,6 +75,7 @@
   .libray{
     font-family: "Arial";
     font-size: 16px;
+    color: white;
   }
   
   
@@ -86,7 +87,7 @@
   .libray-p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: black;
+    color: white;
   }
   .card-box{
     
@@ -94,7 +95,7 @@
     width: 300px;
     height: 160px;
 
-    background-color:lightpink;
+    background-color:grey;
     cursor: pointer;
    
     
